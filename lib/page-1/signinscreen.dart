@@ -4,6 +4,8 @@ import 'dart:ui';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:myapp/utils.dart';
 
+import './homescreen.dart';
+
 class SignInScene extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -311,27 +313,33 @@ class SignInScene extends StatelessWidget {
                   ],
                 ),
               ),
-              Container(
-                // buttonlargefixedlayoutprimaryZ (112:1786)
-                margin:
-                    EdgeInsets.fromLTRB(0 * fem, 0 * fem, 0 * fem, 10 * fem),
-                width: double.infinity,
-                height: 60 * fem,
-                decoration: BoxDecoration(
-                  color: Color(0xff9f1f63),
-                  borderRadius: BorderRadius.circular(6 * fem),
-                ),
-                child: Center(
-                  child: Text(
-                    'Log in',
-                    textAlign: TextAlign.center,
-                    style: SafeGoogleFont(
-                      'Poppins',
-                      fontSize: 16 * ffem,
-                      fontWeight: FontWeight.w500,
-                      height: 1.5 * ffem / fem,
-                      letterSpacing: 0.16 * fem,
-                      color: Color(0xffffffff),
+              GestureDetector(
+                onTap: () {
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => HomeScreen()));
+                },
+                child: Container(
+                  // buttonlargefixedlayoutprimaryZ (112:1786)
+                  margin:
+                      EdgeInsets.fromLTRB(0 * fem, 0 * fem, 0 * fem, 10 * fem),
+                  width: double.infinity,
+                  height: 60 * fem,
+                  decoration: BoxDecoration(
+                    color: Color(0xff9f1f63),
+                    borderRadius: BorderRadius.circular(6 * fem),
+                  ),
+                  child: Center(
+                    child: Text(
+                      'Log in',
+                      textAlign: TextAlign.center,
+                      style: SafeGoogleFont(
+                        'Poppins',
+                        fontSize: 16 * ffem,
+                        fontWeight: FontWeight.w500,
+                        height: 1.5 * ffem / fem,
+                        letterSpacing: 0.16 * fem,
+                        color: Color(0xffffffff),
+                      ),
                     ),
                   ),
                 ),

@@ -4,7 +4,7 @@ import 'dart:ui';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:myapp/utils.dart';
 
-class Scene extends StatelessWidget {
+class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     double baseWidth = 375;
@@ -111,7 +111,7 @@ class Scene extends StatelessWidget {
                           width: 333 * fem,
                           height: 123 * fem,
                           child: Image.asset(
-                            'assets/page-1/images/image-7.png',
+                            'assets/page-1/images/image7.png',
                             width: 333 * fem,
                             height: 123 * fem,
                           ),
@@ -426,7 +426,7 @@ class Scene extends StatelessWidget {
                               // autogroup9rx45sZ (7YzSQKWxdVN3i1hadH9rX4)
                               margin: EdgeInsets.fromLTRB(
                                   0 * fem, 0 * fem, 0 * fem, 12 * fem),
-                              width: 182 * fem,
+                              width: 175 * fem,
                               child: Column(
                                 crossAxisAlignment: CrossAxisAlignment.center,
                                 children: [
@@ -440,9 +440,9 @@ class Scene extends StatelessWidget {
                                         Container(
                                           // group5327Hij (115:1699)
                                           margin: EdgeInsets.fromLTRB(0 * fem,
-                                              0 * fem, 0 * fem, 11 * fem),
+                                              0 * fem, 0 * fem, 7 * fem),
                                           width: 50 * fem,
-                                          height: 15 * fem,
+                                          height: 17 * fem,
                                           decoration: BoxDecoration(
                                             color: Color(0xffeff3ff),
                                             borderRadius:
@@ -478,7 +478,7 @@ class Scene extends StatelessWidget {
                                   Container(
                                     // autogroupxijnceX (7YzSdeU62uoGe4wnLLXiJN)
                                     width: double.infinity,
-                                    height: 18 * fem,
+                                    height: 19 * fem,
                                     child: Row(
                                       crossAxisAlignment:
                                           CrossAxisAlignment.center,
@@ -486,53 +486,30 @@ class Scene extends StatelessWidget {
                                         Container(
                                           // autogroupc3rswgo (7YzSjZTuBVUjmP4SsyC3rS)
                                           margin: EdgeInsets.fromLTRB(0 * fem,
-                                              0 * fem, 49 * fem, 0 * fem),
-                                          width: 52 * fem,
+                                              0 * fem, 23 * fem, 0 * fem),
+                                          width: 69 * fem,
                                           height: double.infinity,
                                           child: Stack(
                                             children: [
                                               Positioned(
                                                 // sylhetSNf (115:1709)
-                                                left: 15 * fem,
+                                                left: 17 * fem,
                                                 top: 0 * fem,
-                                                child: Align(
-                                                  child: SizedBox(
-                                                    width: 37 * fem,
-                                                    height: 18 * fem,
-                                                    child: RichText(
-                                                      text: TextSpan(
-                                                        style: SafeGoogleFont(
-                                                          'Poppins',
-                                                          fontSize: 12 * ffem,
-                                                          fontWeight:
-                                                              FontWeight.w400,
-                                                          height:
-                                                              1.5 * ffem / fem,
-                                                          color:
-                                                              Color(0xff000000),
-                                                        ),
-                                                        children: [
-                                                          TextSpan(
-                                                            text: ' ',
-                                                            style:
-                                                                SafeGoogleFont(
-                                                              'Poppins',
-                                                              fontSize:
-                                                                  12 * ffem,
-                                                              fontWeight:
-                                                                  FontWeight
-                                                                      .w400,
-                                                              height: 1.5 *
-                                                                  ffem /
-                                                                  fem,
-                                                              color: Color(
-                                                                  0xff000000),
-                                                            ),
-                                                          ),
-                                                          TextSpan(
-                                                            text: 'Sylhet',
-                                                          ),
-                                                        ],
+                                                child: SizedBox(
+                                                  width: 37 * fem,
+                                                  height: 20 * fem,
+                                                  child: RichText(
+                                                    text: TextSpan(
+                                                      text: 'Sylhet',
+                                                      style: SafeGoogleFont(
+                                                        'Poppins',
+                                                        fontSize: 12 * ffem,
+                                                        fontWeight:
+                                                            FontWeight.w400,
+                                                        height:
+                                                            1.5 * ffem / fem,
+                                                        color:
+                                                            Color(0xff000000),
                                                       ),
                                                     ),
                                                   ),
@@ -547,7 +524,7 @@ class Scene extends StatelessWidget {
                                                     width: 16 * fem,
                                                     height: 16 * fem,
                                                     child: Image.asset(
-                                                      'assets/page-1/images/image-1-gXm.png',
+                                                      'assets/page-1/images/image-1.png',
                                                       fit: BoxFit.cover,
                                                     ),
                                                   ),
