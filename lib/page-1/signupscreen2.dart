@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/gestures.dart';
 import 'dart:ui';
 import 'package:google_fonts/google_fonts.dart';
+import './welcomescreen.dart';
 import 'package:myapp/utils.dart';
 
 class SignUpScreen2 extends StatelessWidget {
@@ -173,11 +174,11 @@ class SignUpScreen2 extends StatelessWidget {
                     Container(
                       // component2g5q (115:1644)
                       margin: EdgeInsets.fromLTRB(
-                          90 * fem, 0 * fem, 90 * fem, 24 * fem),
+                          91 * fem, 0 * fem, 91 * fem, 24 * fem),
                       padding: EdgeInsets.fromLTRB(
                           22 * fem, 1 * fem, 22 * fem, 1 * fem),
                       width: double.infinity,
-                      height: 38 * fem,
+                      height: 25 * fem,
                       decoration: BoxDecoration(
                         color: const Color(0xff9f1f63),
                         borderRadius: BorderRadius.circular(30 * fem),
@@ -198,7 +199,7 @@ class SignUpScreen2 extends StatelessWidget {
                       padding: EdgeInsets.fromLTRB(
                           5 * fem, 4 * fem, 5 * fem, 4 * fem),
                       width: double.infinity,
-                      height: 100 * fem,
+                      height: 80 * fem,
                       decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(6 * fem),
                       ),
@@ -212,22 +213,6 @@ class SignUpScreen2 extends StatelessWidget {
                         ),
                         child: Stack(
                           children: [
-                            Positioned(
-                              // iconsuco (I112:1850;470:1652)
-                              left: 12.8125 * fem,
-                              top: 20.3125 * fem,
-                              child: Align(
-                                child: SizedBox(
-                                  width: 24.38 * fem,
-                                  height: 24.38 * fem,
-                                  child: Image.asset(
-                                    'assets/page-1/images/icons-nPM.png',
-                                    width: 24.38 * fem,
-                                    height: 24.38 * fem,
-                                  ),
-                                ),
-                              ),
-                            ),
                             Positioned(
                               // inputenameMjh (I112:1850;470:1653)
                               left: 50 * fem,
@@ -291,7 +276,7 @@ class SignUpScreen2 extends StatelessWidget {
                       padding: EdgeInsets.fromLTRB(
                           5 * fem, 4 * fem, 5 * fem, 4 * fem),
                       width: double.infinity,
-                      height: 100 * fem,
+                      height: 80 * fem,
                       decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(6 * fem),
                       ),
@@ -367,19 +352,25 @@ class SignUpScreen2 extends StatelessWidget {
                         color: Color(0xff9f1f63),
                         borderRadius: BorderRadius.circular(30 * fem),
                       ),
-                      child: Container(
-                        // autogroupgc1pcsu (7YzMwhStWf7SS7c3Aogc1p)
-                        width: double.infinity,
-                        height: double.infinity,
-                        child: Center(
-                          child: Text(
-                            'Finish Sign up',
-                            style: SafeGoogleFont(
-                              'Poppins',
-                              fontSize: 14 * ffem,
-                              fontWeight: FontWeight.w600,
-                              height: 1.5 * ffem / fem,
-                              color: Color(0xfff7f8fa),
+                      child: GestureDetector(
+                        onTap: () {
+                          Navigator.pop(context);
+                          Navigator.pop(context);
+                        },
+                        child: Container(
+                          // autogroupgc1pcsu (7YzMwhStWf7SS7c3Aogc1p)
+                          width: double.infinity,
+                          height: double.infinity,
+                          child: Center(
+                            child: Text(
+                              'Finish Sign up',
+                              style: SafeGoogleFont(
+                                'Poppins',
+                                fontSize: 14 * ffem,
+                                fontWeight: FontWeight.w600,
+                                height: 1.5 * ffem / fem,
+                                color: Color(0xfff7f8fa),
+                              ),
                             ),
                           ),
                         ),
