@@ -621,8 +621,8 @@ class HomeScreen extends StatelessWidget {
                             Container(
                               // autogroupmxyeiRy (7YzTahigcETVpxmwYzmXYe)
                               margin: EdgeInsets.fromLTRB(
-                                  0 * fem, 0 * fem, 0 * fem, 11 * fem),
-                              width: 182 * fem,
+                                  0 * fem, 0 * fem, 0 * fem, 7 * fem),
+                              width: 175 * fem,
                               child: Column(
                                 crossAxisAlignment: CrossAxisAlignment.center,
                                 children: [
@@ -636,9 +636,9 @@ class HomeScreen extends StatelessWidget {
                                         Container(
                                           // group5327Mjq (115:1653)
                                           margin: EdgeInsets.fromLTRB(0 * fem,
-                                              0 * fem, 0 * fem, 11 * fem),
+                                              0 * fem, 0 * fem, 10 * fem),
                                           width: 68 * fem,
-                                          height: 15 * fem,
+                                          height: 17 * fem,
                                           decoration: BoxDecoration(
                                             color: Color(0xffeff3ff),
                                             borderRadius:
@@ -681,54 +681,49 @@ class HomeScreen extends StatelessWidget {
                                         Container(
                                           // autogrouprb7qRt7 (7YzTq2e9RAGusyN4LarB7Q)
                                           margin: EdgeInsets.fromLTRB(0 * fem,
-                                              0 * fem, 47 * fem, 1 * fem),
-                                          width: 54 * fem,
-                                          height: 18 * fem,
+                                              0 * fem, 23 * fem, 1 * fem),
+                                          width: 69 * fem,
+                                          height: 19 * fem,
                                           child: Stack(
                                             children: [
                                               Positioned(
                                                 // dhakaKTh (115:1711)
-                                                left: 15 * fem,
+                                                left: 17 * fem,
                                                 top: 0 * fem,
-                                                child: Align(
-                                                  child: SizedBox(
-                                                    width: 39 * fem,
-                                                    height: 18 * fem,
-                                                    child: RichText(
-                                                      text: TextSpan(
-                                                        style: SafeGoogleFont(
-                                                          'Poppins',
-                                                          fontSize: 12 * ffem,
-                                                          fontWeight:
-                                                              FontWeight.w400,
-                                                          height:
-                                                              1.5 * ffem / fem,
-                                                          color:
-                                                              Color(0xff000000),
-                                                        ),
-                                                        children: [
-                                                          TextSpan(
-                                                            text: ' ',
-                                                            style:
-                                                                SafeGoogleFont(
-                                                              'Poppins',
-                                                              fontSize:
-                                                                  12 * ffem,
-                                                              fontWeight:
-                                                                  FontWeight
-                                                                      .w400,
-                                                              height: 1.5 *
-                                                                  ffem /
-                                                                  fem,
-                                                              color: Color(
-                                                                  0xff000000),
-                                                            ),
-                                                          ),
-                                                          TextSpan(
-                                                            text: 'Dhaka',
-                                                          ),
-                                                        ],
+                                                child: SizedBox(
+                                                  width: 69 * fem,
+                                                  height: 18 * fem,
+                                                  child: RichText(
+                                                    text: TextSpan(
+                                                      style: SafeGoogleFont(
+                                                        'Poppins',
+                                                        fontSize: 12 * ffem,
+                                                        fontWeight:
+                                                            FontWeight.w400,
+                                                        height:
+                                                            1.5 * ffem / fem,
+                                                        color:
+                                                            Color(0xff000000),
                                                       ),
+                                                      children: [
+                                                        TextSpan(
+                                                          text: ' ',
+                                                          style: SafeGoogleFont(
+                                                            'Poppins',
+                                                            fontSize: 12 * ffem,
+                                                            fontWeight:
+                                                                FontWeight.w400,
+                                                            height: 1.5 *
+                                                                ffem /
+                                                                fem,
+                                                            color: Color(
+                                                                0xff000000),
+                                                          ),
+                                                        ),
+                                                        TextSpan(
+                                                          text: 'Dhaka',
+                                                        ),
+                                                      ],
                                                     ),
                                                   ),
                                                 ),
