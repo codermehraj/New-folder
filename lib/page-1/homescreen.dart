@@ -835,8 +835,8 @@ class HomeScreen extends StatelessWidget {
                             Container(
                               // autogroupzpzvpMq (7YzVN4v7mhwf9JsLDEzpzv)
                               margin: EdgeInsets.fromLTRB(
-                                  0 * fem, 0 * fem, 0 * fem, 12 * fem),
-                              width: 183 * fem,
+                                  0 * fem, 0 * fem, 0 * fem, 7 * fem),
+                              width: 175 * fem,
                               child: Column(
                                 crossAxisAlignment: CrossAxisAlignment.center,
                                 children: [
@@ -850,9 +850,9 @@ class HomeScreen extends StatelessWidget {
                                         Container(
                                           // group5327TQo (121:1679)
                                           margin: EdgeInsets.fromLTRB(0 * fem,
-                                              0 * fem, 0 * fem, 11 * fem),
+                                              0 * fem, 0 * fem, 10 * fem),
                                           width: 43 * fem,
-                                          height: 15 * fem,
+                                          height: 17 * fem,
                                           decoration: BoxDecoration(
                                             color: Color(0xffeff3ff),
                                             borderRadius:
@@ -896,54 +896,49 @@ class HomeScreen extends StatelessWidget {
                                         Container(
                                           // autogrouph3sgq3y (7YzVeowDowbsQHsQmcH3sg)
                                           margin: EdgeInsets.fromLTRB(0 * fem,
-                                              0 * fem, 42 * fem, 0 * fem),
-                                          width: 67 * fem,
+                                              0 * fem, 23 * fem, 0 * fem),
+                                          width: 79 * fem,
                                           height: double.infinity,
                                           child: Stack(
                                             children: [
                                               Positioned(
                                                 // rangpuriNf (121:1685)
-                                                left: 15 * fem,
+                                                left: 17 * fem,
                                                 top: 0 * fem,
-                                                child: Align(
-                                                  child: SizedBox(
-                                                    width: 52 * fem,
-                                                    height: 18 * fem,
-                                                    child: RichText(
-                                                      text: TextSpan(
-                                                        style: SafeGoogleFont(
-                                                          'Poppins',
-                                                          fontSize: 12 * ffem,
-                                                          fontWeight:
-                                                              FontWeight.w400,
-                                                          height:
-                                                              1.5 * ffem / fem,
-                                                          color:
-                                                              Color(0xff000000),
-                                                        ),
-                                                        children: [
-                                                          TextSpan(
-                                                            text: ' ',
-                                                            style:
-                                                                SafeGoogleFont(
-                                                              'Poppins',
-                                                              fontSize:
-                                                                  12 * ffem,
-                                                              fontWeight:
-                                                                  FontWeight
-                                                                      .w400,
-                                                              height: 1.5 *
-                                                                  ffem /
-                                                                  fem,
-                                                              color: Color(
-                                                                  0xff000000),
-                                                            ),
-                                                          ),
-                                                          TextSpan(
-                                                            text: 'Rangpur',
-                                                          ),
-                                                        ],
+                                                child: SizedBox(
+                                                  width: 70 * fem,
+                                                  height: 18 * fem,
+                                                  child: RichText(
+                                                    text: TextSpan(
+                                                      style: SafeGoogleFont(
+                                                        'Poppins',
+                                                        fontSize: 12 * ffem,
+                                                        fontWeight:
+                                                            FontWeight.w400,
+                                                        height:
+                                                            1.5 * ffem / fem,
+                                                        color:
+                                                            Color(0xff000000),
                                                       ),
+                                                      children: [
+                                                        TextSpan(
+                                                          text: ' ',
+                                                          style: SafeGoogleFont(
+                                                            'Poppins',
+                                                            fontSize: 12 * ffem,
+                                                            fontWeight:
+                                                                FontWeight.w400,
+                                                            height: 1.5 *
+                                                                ffem /
+                                                                fem,
+                                                            color: const Color(
+                                                                0xff000000),
+                                                          ),
+                                                        ),
+                                                        const TextSpan(
+                                                          text: 'Rangpur',
+                                                        ),
+                                                      ],
                                                     ),
                                                   ),
                                                 ),
