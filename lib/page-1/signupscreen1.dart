@@ -3,6 +3,7 @@ import 'package:flutter/gestures.dart';
 import 'dart:ui';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:myapp/utils.dart';
+import './signupscreen2.dart';
 
 class SignUpScreen1 extends StatelessWidget {
   @override
@@ -330,31 +331,37 @@ class SignUpScreen1 extends StatelessWidget {
                   ],
                 ),
               ),
-              Container(
-                // component18hR (112:1726)
-                margin:
-                    EdgeInsets.fromLTRB(5 * fem, 0 * fem, 13 * fem, 16 * fem),
-                padding:
-                    EdgeInsets.fromLTRB(99 * fem, 14 * fem, 99 * fem, 14 * fem),
-                width: double.infinity,
-                height: 49 * fem,
-                decoration: BoxDecoration(
-                  color: Color(0xff9f1f63),
-                  borderRadius: BorderRadius.circular(30 * fem),
-                ),
+              GestureDetector(
+                onTap: () {
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => SignUpScreen2()));
+                },
                 child: Container(
-                  // autogroup28f4ooZ (7YzL7aq2z3KkY9KP3c28f4)
+                  // component18hR (112:1726)
+                  margin:
+                      EdgeInsets.fromLTRB(5 * fem, 0 * fem, 13 * fem, 16 * fem),
+                  padding: EdgeInsets.fromLTRB(
+                      99 * fem, 14 * fem, 99 * fem, 14 * fem),
                   width: double.infinity,
-                  height: double.infinity,
-                  child: Center(
-                    child: Text(
-                      'Create Account',
-                      style: SafeGoogleFont(
-                        'Poppins',
-                        fontSize: 14 * ffem,
-                        fontWeight: FontWeight.w600,
-                        height: 1.5 * ffem / fem,
-                        color: Color(0xfff7f8fa),
+                  height: 49 * fem,
+                  decoration: BoxDecoration(
+                    color: Color(0xff9f1f63),
+                    borderRadius: BorderRadius.circular(30 * fem),
+                  ),
+                  child: Container(
+                    // autogroup28f4ooZ (7YzL7aq2z3KkY9KP3c28f4)
+                    width: double.infinity,
+                    height: double.infinity,
+                    child: Center(
+                      child: Text(
+                        'Create Account',
+                        style: SafeGoogleFont(
+                          'Poppins',
+                          fontSize: 14 * ffem,
+                          fontWeight: FontWeight.w600,
+                          height: 1.5 * ffem / fem,
+                          color: Color(0xfff7f8fa),
+                        ),
                       ),
                     ),
                   ),
