@@ -29,7 +29,7 @@ class HomeScreen extends StatelessWidget {
               Container(
                 // autogroupbmerMZd (7YzRGGagbbViCd6MYoBMer)
                 width: double.infinity,
-                height: 725 * fem,
+                height: 690 * fem,
                 child: Stack(
                   children: [
                     Positioned(
@@ -1014,13 +1014,13 @@ class HomeScreen extends StatelessWidget {
               Container(
                 // group5388Evf (123:1724)
                 width: double.infinity,
-                height: 87 * fem,
+                height: 76.6 * fem,
                 child: Stack(
                   children: [
                     Positioned(
                       // rectangle4161xbm (122:1691)
                       left: 0 * fem,
-                      top: 14 * fem,
+                      top: 17 * fem,
                       child: Align(
                         child: SizedBox(
                           width: 375 * fem,
